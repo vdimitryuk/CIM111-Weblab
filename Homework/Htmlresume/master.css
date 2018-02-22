@@ -1,0 +1,54 @@
+<style>
+  h1 {
+      color: red;
+      font-size: 32px;
+      font-family: 'Rammetto One',cursive;
+      letter-spacing: 2px;
+      margin-bottom: 2px
+
+  }
+            
+    h2 {
+        color: blue;
+    }
+
+    h3 {
+        color : green;
+    }
+
+    div {
+        padding-left: 10px;
+    }
+
+    .spanthing {
+        padding-left: 20px;
+    }
+
+.meImg {
+    width: 100px;
+    height: 100px;
+}
+
+
+  body {
+    font-family: 'Raleway', sans-serif;
+
+  }
+  a {
+      color: green;
+      text-decoration: none;
+  }
+  a:hover {
+      color: red;
+      text-decoration: underline;
+  }
+  p:hover{
+    background: purple;
+  }
+
+  p {
+      background: pink;
+      margin-top: 0;
+      font-size: 18px
+  }
+      </style>
