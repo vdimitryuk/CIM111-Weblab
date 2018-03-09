@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.supercenter-text {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.medium-text {
+    font-size: 18px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+@media only screen and (max-width:699px) {
+    .about-container {
+        background-color: red;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows: 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55%;
+        grid-template-areas: 
+            'val val val val val val val val'
+            'val val val val val val val val'
+            'hom hom abo abo gal gal map map'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'bla bla bla bla bla bla bla bla'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'nav nav nav nav nav nav nav nav'
+            'cop cop cop cop cop cop cop cop';
+    }
+}
+
+
+@media only screen and (min-width:700px) {
+    .index-container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows: 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55%;
+        grid-template-areas: 
+            'val val val val val val val val'
+            'val val val val val val val val'
+            'hom hom abo abo gal gal map map'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'bla bla bla bla bla bla bla bla'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'nav nav nav nav nav nav nav nav'
+            'cop cop cop cop cop cop cop cop';
+    }
+    .about-container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows: 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55%;
+        grid-template-areas: 
+            'val val val val val val val val'
+            'val val val val val val val val'
+            'hom hom abo abo gal gal map map'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'bla bla bla bla bla bla bla bla'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'nav nav nav nav nav nav nav nav'
+            'cop cop cop cop cop cop cop cop';
+    }
+    .gallery-container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows: 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55%;
+        grid-template-areas: 
+            'val val val val val val val val'
+            'val val val val val val val val'
+            'hom hom abo abo gal gal map map'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'bla bla bla bla bla bla bla bla'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'nav nav nav nav nav nav nav nav'
+            'cop cop cop cop cop cop cop cop';
+    }
+    .map-container {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows: 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55% 5.55%;
+        grid-template-areas: 
+            'val val val val val val val val'
+            'val val val val val val val val'
+            'hom hom abo abo gal gal map map'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'per per who who who who who who'
+            'bla bla bla bla bla bla bla bla'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'tra tra tra tra tra pic pic pic'
+            'nav nav nav nav nav nav nav nav'
+            'cop cop cop cop cop cop cop cop';
+    }
+}
+
+.val {
+    grid-area: val;
+}
+
+.hom {
+    grid-area: hom;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.abo {
+    grid-area: abo;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.gal {
+    grid-area: gal;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.map {
+    grid-area: map;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.per {
+    grid-area: per;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.who {
+    grid-area: who;
+}
+
+.bla {
+    grid-area: bla;
+}
+
+.tra {
+    grid-area: tra;
+}
+
+.pic {
+    grid-area: pic;
+    border: 2px solid black;
+    margin: 2px;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.cop {
+    grid-area: cop;
+}
